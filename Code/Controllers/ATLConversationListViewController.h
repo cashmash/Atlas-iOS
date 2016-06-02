@@ -283,5 +283,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)reloadCellForConversation:(LYRConversation *)conversation;
 
+/**
+ @abstract Reloads complete Conversation list.
+ */
+- (void)setupConversationDataSource;
+
 @end
 NS_ASSUME_NONNULL_END
